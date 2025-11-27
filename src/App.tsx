@@ -56,7 +56,7 @@ const advantages = [
   },
 ];
 
-const LINK = 'https://alfa-mobile.alfabank.ru/mobile/goto/invest_open_iis';
+const LINK = 'alfabank://webFeature?type=recommendation&url=https%3A%2F%2Fweb.alfabank.ru%2Finvestments%2Fopen-iia-account';
 
 export const App = () => {
   const [loading, setLoading] = useState(false);
