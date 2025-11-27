@@ -89,31 +89,6 @@ const bannerAccount = style({
   marginTop: '6px',
 });
 
-const tags = style({
-  display: 'flex',
-  gap: '8px',
-  alignItems: 'center',
-});
-
-const gridItemBox = style({
-  backgroundColor: '#FFFFFF',
-  borderRadius: '8px',
-  padding: '8px',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  textAlign: 'center',
-  height: 64,
-  justifyContent: 'center',
-});
-
-const row = style({
-  display: 'flex',
-  gap: '8px',
-  alignItems: 'center',
-  marginTop: '1rem',
-});
-
 export const appSt = {
   bottomBtn,
   container,
@@ -124,7 +99,4 @@ export const appSt = {
   boxCalc,
   rowSb,
   bannerAccount,
-  tags,
-  gridItemBox,
-  row,
 };
