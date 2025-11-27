@@ -1,0 +1,29 @@
+@import '@alfalab/core-components/vars/index.css';
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+  --slider-progress-color: #7A38E0;
+  --slider-progress-hover-color: #7A38E0;
+  --slider-thumb-color: #7A38E0;
+  --slider-thumb-hover-color: #7A38E0;
+  --slider-thumb-active-color: #7A38E0;
+  --tag-outlined-background-color: #F6F6FD;
+  --tag-border-width: 0
+}
+
+
+[class^="slider__component_"] {
+  width: calc(100% - var(--slider-input-progress-margin-horizontal) * 2) !important;
+}
